@@ -1,11 +1,13 @@
 TCS folder structure, why to use this?
 
 1) App that we are developing is growing.
+
 2) Folder Structure always helps in making the work easier by getting what we are looking for.
+
 3) Feature Based Structure: If we use the structure based on the feature then it will be easy to work on that particular feature.
 For ex: Let's say we have a functionality where we compare with the competitors so if the view, controllers are there in the same
-folder
-then it will be helpful to developers to change only that part.
+folder then it will be helpful to developers to change only that part.
+
 4) This folder structure will be helpful for the Team Lead so that he/she can give access to only the needed feature. This helps in
 best organizing and managing the project.
 
@@ -45,5 +47,4 @@ For ex: scplan.route.js or scplan.config.route.js
 6) Naming the services is based on what it provides, name the assets related to the feature it provides.
 Let's say if service provides the data then give it a name data.service.js and the asset as data,if it helps in logging then give
  it a name logger.services.js and asset as logger.
-
 
