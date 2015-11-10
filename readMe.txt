@@ -20,9 +20,10 @@ please take permission from the Team Lead/Technical Architect)
 
 2) The major thing with feature based is to make work more efficient.
 Let's say some bug arises in Scenario Planning then Team Lead will give just an access to this folder,so that it don't
-affect any of the others features.
+affect any of the other features.
 
-3)To the Team Lead/Technical Architect don't go more than 2 levels of folder structure which will make the work bit more complex.
+3)To the Team Lead/Technical Architect don't go more than 2 levels of folder structure which will make the understanding
+& accessing the folder will become bit complicated.
 
 4) Place the feature/layouts which are repetitive in a common folder so that it can be shared.
 
@@ -34,18 +35,18 @@ Naming Conventions
 For ex: controllers,views,pricing.
 
 2) Use app.js for main app modules, use abc.module.js for sub app modules.
-For ex:pricing.module.js
+For ex:pricing.module.js, scplan.module.js
 
 3) Naming the Configuration files, for main module use config.js and for sub app module use abc.config.js
+For ex:pricing.config.js, scplan.config.js
 
 4) Naming the Controllers must be more specific based on the work it do/Feature it provides.
-For ex: scplan.controller.js or scplan.js
+For ex: scplan.controller.js or scplan.js,pricing.controller.js or pricing.js
 
-5) Naming the Routing Configuration file, for main module use config.route.js and for sub app module use abc.config.route.js or abc.route.js
+5) Naming the Routing Configuration file, for main module use config.route.js and for sub app module use abc.config.route.js
+or abc.route.js.
 For ex: scplan.route.js or scplan.config.route.js
 
 6) Naming the services is based on what it provides, name the assets related to the feature it provides.
 Let's say if service provides the data then give it a name data.service.js and the asset as data,if it helps in logging then give
  it a name logger.services.js and asset as logger.
-
-
