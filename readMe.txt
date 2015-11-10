@@ -27,4 +27,18 @@ Naming Conventions
 1) The name of the folder should be specific based on it's functionality or feature and it must be lower case.
 For ex: controllers,views,pricing.
 
-2)
+2) Use app.js for main app modules, use abc.module.js for sub app modules.
+For ex:pricing.module.js
+
+3) Naming the Configuration files, for main module use config.js and for sub app module use abc.config.js
+
+4) Naming the Controllers must be more specific based on the work it do/Feature it provides.
+For ex: scplan.controller.js or scplan.js
+
+5) Naming the Routing Configuration file, for main module use config.route.js and for sub app module use abc.config.route.js or abc.route.js
+For ex: scplan.route.js or scplan.config.route.js
+
+6) Naming the services is based on what it provides.
+Let's say if service provides the data then give it a name data.service.js,if it helps in logging then give it a name logger.services.js.
+
+7)
