@@ -22,6 +22,10 @@ affect any of the others features.
 
 3)To the Team Lead/Technical Architect don't go more than 2 levels of folder structure which will make the work bit more complex.
 
+4) Place the feature/layouts which are repetitive in a common folder so that it can be shared.
+
+5) Placing the modules/sub modules in the app folder.
+
 Naming Conventions
 
 1) The name of the folder should be specific based on it's functionality or feature and it must be lower case.
@@ -38,7 +42,8 @@ For ex: scplan.controller.js or scplan.js
 5) Naming the Routing Configuration file, for main module use config.route.js and for sub app module use abc.config.route.js or abc.route.js
 For ex: scplan.route.js or scplan.config.route.js
 
-6) Naming the services is based on what it provides.
-Let's say if service provides the data then give it a name data.service.js,if it helps in logging then give it a name logger.services.js.
+6) Naming the services is based on what it provides, name the assets related to the feature it provides.
+Let's say if service provides the data then give it a name data.service.js and the asset as data,if it helps in logging then give
+ it a name logger.services.js and asset as logger.
 
-7)
+7)Placing the
