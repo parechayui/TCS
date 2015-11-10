@@ -46,4 +46,3 @@ For ex: scplan.route.js or scplan.config.route.js
 Let's say if service provides the data then give it a name data.service.js and the asset as data,if it helps in logging then give
  it a name logger.services.js and asset as logger.
 
-7)Placing the
