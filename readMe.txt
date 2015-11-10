@@ -22,9 +22,9 @@ affect any of the others features.
 
 3)To the Team Lead/Technical Architect don't go more than 2 levels of folder structure which will make the work bit more complex.
 
-What happens in common?
+Naming Conventions
 
-1) There will be functionality where we will be using repetitively then those features will be stored in this folder
-& extended whenever needed.
-Ex: Progress Bars, Charts
+1) The name of the folder should be specific based on it's functionality or feature and it must be lower case.
+For ex: controllers,views,pricing.
 
+2)
