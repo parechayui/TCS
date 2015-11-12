@@ -1,4 +1,3 @@
-/* this will change the data structure*/
 var jsondata=[
     {
         key: "Company A",

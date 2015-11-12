@@ -1,0 +1,43 @@
+
+<!DOCTYPE html ng-app="">
+<html lang="en-US">
+<meta charset="utf-8">
+<head>
+    <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+    <!-- Angular need to be here otherwise because this is project more dynamic-->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="bower_components/nvd3/build/nv.d3.css">
+</head>
+
+
+<body>
+
+
+
+
+<div ng-app='myApp'>
+
+    <div ng-controller='myCtrl'>
+        <nvd3 options='options' data='data'></nvd3>
+    </div>
+</div>
+<script>
+    var myApp = angular.module('myApp',[]);
+    myApp.controller('HelloWorldController', ['$scope', function($scope) {
+        $scope.greeting = 'Hello World!';
+    }]);
+
+
+</script>
+<!--All the scripts will be added here-->
+<script src="bower_components/d3/d3.js"></script>
+<script src="bower_components/nvd3/build/nv.d3.js"></script> <!-- or use another assembly -->
+<script src="bower_components/angular-nvd3/dist/angular-nvd3.js"></script>
+<script src="bower_components/less/dist/less.min.js"></script>
+<!--Customised scripts goes here-->
+<script src="app/controllers/chart.js"></script>
+
+</body>
+</html>
