@@ -1,12 +1,11 @@
-/*This is router controller module which controlles route configuration*/
+/*This is router controller module which controlles route configuration,change the views based on the state*/
 angular.module('app.routeController', [
     'ui.router',
     'aboutController'])
     .config(config);
 
-
 /*This to change the router configuration*/
-function config($stateProvider, $urlRouterProvider){
+function config( $stateProvider, $urlRouterProvider){
         $urlRouterProvider.otherwise('/home');
 
         $stateProvider
@@ -14,12 +13,12 @@ function config($stateProvider, $urlRouterProvider){
         // HOME STATES AND NESTED VIEWS ========================================
             .state('home', {
                 url: '/home',
-                templateUrl: 'app/layout/partial_home.html'
+                templateUrl: 'app/home/partial_home.html'
             })
 
             .state('home.list', {
                 url: '/list',
-                templateUrl: 'app/layout/partial-home-list.html',
+                templateUrl: 'app/home/partial-home-list.html',
                 controller: function($scope) {
                     $scope.names = ['John', 'Ram', 'Mike'];
                 }
@@ -38,14 +37,14 @@ function config($stateProvider, $urlRouterProvider){
                 views: {
 
                 // the main template will be placed here (relatively named)
-                    '': { templateUrl: 'app/layout/partial-about.html' },
+                    '': { templateUrl: 'app/about/partial-about.html' },
 
                 // the child views will be defined here (absolutely named)
                     'columnOne@about': { template: 'Look I am a column 1!' },
 
                 // for column two, we'll define a separate controller
                     'columnTwo@about': {
-                        templateUrl: 'app/layout/table-data.html',
+                        templateUrl: 'app/about/table-data.html',
                         controller: 'aboutController'
                     }
                 }
@@ -55,7 +54,10 @@ function config($stateProvider, $urlRouterProvider){
         // Contact page and it's views =================================
             .state('contact', {
                 url: '/contact',
-                templateUrl: 'app/layout/contact.html'
+                templateUrl: 'app/contact/contact.html'
             })
 
+
+
     }/*End of config function */
+
