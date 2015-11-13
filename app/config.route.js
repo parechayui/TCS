@@ -1,8 +1,9 @@
-/*This is router controller module*/
+/*This is router controller module which controlles route configuration*/
 angular.module('app.routeController', [
     'ui.router',
     'aboutController'])
     .config(config);
+
 
 /*This to change the router configuration*/
 function config($stateProvider, $urlRouterProvider){
@@ -49,9 +50,12 @@ function config($stateProvider, $urlRouterProvider){
                     }
                 }
             })
+
+
         // Contact page and it's views =================================
             .state('contact', {
                 url: '/contact',
                 templateUrl: 'app/layout/contact.html'
             })
-    }
+
+    }/*End of config function */
