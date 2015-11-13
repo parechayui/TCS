@@ -67,5 +67,5 @@ angular.module('myApp', ['nvd3'])
 
         $scope.options = chartStructure;
         $scope.data = jsondata;
-    })
+    });
 

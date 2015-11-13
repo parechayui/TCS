@@ -5,8 +5,10 @@ angular.module('app.routeController', [
     .config(config);
 
 /*This to change the router configuration*/
-function config( $stateProvider, $urlRouterProvider){
-        $urlRouterProvider.otherwise('/home');
+function config( $stateProvider, $urlRouterProvider,$locationProvider){
+        $locationProvider.html5Mode(true);
+
+        $urlRouterProvider.otherwise('/');
 
         $stateProvider
 
