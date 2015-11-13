@@ -1,39 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" data-ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
 
     <!--bootstrap style sheet-->
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" >
-<!--Script for IE compatibility issues-->
+
+    <!--Script for IE compatibility issues-->
     <!--[if lt IE 9]>
     <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
     <![endif]-->
 
     <!--app css-->
-    <link rel="stylesheet" type="text/css" href="content/css/main.css" >
+    <link rel="stylesheet" type="text/css" href="content/css/main.css">
 
 </head>
 <body>
 
 <!--navigation bar -->
-<header ng-include="'app/common/header.html'"></header>
+<header data-ng-include="'app/common/header.html'"></header>
 
 <!--Dynamic view container-->
     <div class="container">
-             <div ui-view></div>
+             <div data-ui-view></div>
     </div>
 
 <!--footer of the page-->
-<footer class="row" ng-include="'app/common/footer.html'"></footer>
+<footer class="row" data-ng-include="'app/common/footer.html'"></footer>
 
 <!--third party libraries-->
 <script src="bower_components/angular/angular.min.js"></script>
 <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 
 <!--app scripts-->
+
+<script src="app/app.js"></script>
 <script src="app/config.route.js"></script>
+<script src="app/layout/about.controller.js"></script>
 
 </body>
 </html>
