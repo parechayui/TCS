@@ -5,8 +5,8 @@ angular.module('app.routeController', [
     .config(config);
 
 /*This to change the router configuration*/
-function config( $stateProvider, $urlRouterProvider,$locationProvider){
-        $locationProvider.html5Mode(true);
+function config( $stateProvider, $urlRouterProvider, $locationProvider){
+
 
         $urlRouterProvider.otherwise('/');
 
@@ -59,7 +59,8 @@ function config( $stateProvider, $urlRouterProvider,$locationProvider){
                 templateUrl: 'app/contact/contact.html'
             })
 
-
+      /*To get rid of # tag need to use this,but we can't reload that page again*/
+       /*$locationProvider.html5Mode(true);*/
 
     }/*End of config function */
 
