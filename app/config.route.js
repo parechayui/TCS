@@ -1,14 +1,19 @@
 /*This is router controller module which controlles route configuration,change the views based on the state*/
-angular.module('app.routeController', [
-    'ui.router',
-    'aboutController'])
+angular.module('app')
     .config(config);
 
 /*This to change the router configuration*/
 function config( $stateProvider, $urlRouterProvider, $locationProvider){
 
 
-        $urlRouterProvider.otherwise('/');
+        /*$urlRouterProvider.otherwise('/');*/
+
+    $urlRouterProvider
+        .when('', '/home')
+        .when('/', '/home')
+        .otherwise(function ($injector) {
+            $injector.get('$state').go('404', {}, { location: false });
+        });
 
         $stateProvider
 
@@ -21,9 +26,7 @@ function config( $stateProvider, $urlRouterProvider, $locationProvider){
             .state('home.list', {
                 url: '/list',
                 templateUrl: 'app/home/partial-home-list.html',
-                controller: function($scope) {
-                    $scope.names = ['John', 'Ram', 'Mike'];
-                }
+                controller: 'PartialHomeList'
             })
 
         // nested list with just some random string data

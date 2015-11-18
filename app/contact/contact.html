@@ -1,5 +1,5 @@
-<form class="form-horizontal" role="form" method="post" action="">
-    <div class="form-group">
+
+   <!-- <div class="form-group">
         <label for="name" class="col-sm-2 control-label">Name</label>
         <div class="col-sm-10">
             <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
@@ -32,5 +32,16 @@
         <div class="col-sm-10 col-sm-offset-2">
             <! Will be used to display an alert to the user>
         </div>
-    </div>
+    </div>-->
+    <div data-ng-controller="addCtrl">
+<form novalidate>
+    a: <input type="number" data-ng-model="a"><br><br>
+    b: <input type="number" data-ng-model="b"><br>
+    <br>
+    <br>
+
+
+
 </form>
+        Sum: {{sum ()}}
+    </div>

@@ -15,7 +15,12 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-       'test/**/*Spec.js'
+      'bower_components/angular/angular.min.js',
+      'bower_components/angular-mocks/angular-mocks.js',
+      'bower_components/angular-ui-router/release/angular-ui-router.min.js',
+      'app/contact/add.controller.js',
+      'test/**/*Spec.js',
+
     ],
 
 
@@ -27,6 +32,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      '**/*.html': ['ng-html2js']
     },
 
 
