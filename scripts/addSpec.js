@@ -1,5 +1,6 @@
-describe('addCtrl', function() {
+describe('addController', function() {
     beforeEach(module('app'));
+
 
     var $controller;
 
@@ -13,7 +14,7 @@ describe('addCtrl', function() {
 
         beforeEach(function() {
             $scope = {};
-            controller = $controller('addCtrl', { $scope: $scope });
+            controller = $controller('addController', { $scope: $scope });
         });
 
         /*when both numbers are positive*/

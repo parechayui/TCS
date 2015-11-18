@@ -3,10 +3,9 @@ TCS folder structure, why to use this?
 How to start?
 
 1) Download Node.js from [here](https://nodejs.org/en/ "Title") which includes npm.
-2) 
 
 
-
+Why to follow this folder structure.
 1) App that we are developing is growing.
 
 2) Folder Structure always helps in making the work easier by getting what we are looking for.
@@ -57,3 +56,8 @@ For ex: scplan.route.js or scplan.config.route.js
 6) Naming the services is based on what it provides, name the assets related to the feature it provides.
 Let's say if service provides the data then give it a name data.service.js and the asset as data,if it helps in logging then give
  it a name logger.service.js and asset as logger.
+ 
+ 
+ To familiarize with the UI-Route please go through [here](https://github.com/angular-ui/ui-router "Title")
+ 
+ To familiarize with the Karma-Jasmine please go through [here](https://docs.angularjs.org/guide/unit-testing "Title")
