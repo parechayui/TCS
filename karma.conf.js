@@ -19,8 +19,8 @@ module.exports = function(config) {
       'bower_components/angular/angular.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/angular-ui-router/release/angular-ui-router.min.js',
-      'app/contact/add.controller.js',
-      'test/add.controller.js',
+      'app/contact/addCtrl.js',
+      'test/addCtrl.js',
         */
       'bower_components/angular/angular.min.js',
       'test/**/*Spec.js',

@@ -24,7 +24,7 @@ describe('sorting the list of users', function() {
 
         /*When both numbers are negative*/
         it('adds the number when both are negative', function(){
-            var val= sum(-2,-3);
+            var val= sum(2,-3);
             expect(val).toEqual(-5);
         });
 
