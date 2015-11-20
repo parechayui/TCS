@@ -9,6 +9,7 @@
     <!--bootstrap style sheet-->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" >
     <link rel="stylesheet" href="bower_components/nvd3/build/nv.d3.css"  type="text/css">
+    <link rel="stylesheet" href="bower_components/toastr/toastr.min.css"  type="text/css">
 
     <!--Script for IE compatibility issues-->
     <!--[if lt IE 9]>
@@ -44,6 +45,8 @@
 <script src="bower_components/nvd3/build/nv.d3.js"></script> <!-- or use another assembly -->
 <script src="bower_components/angular-nvd3/dist/angular-nvd3.js"></script>
 <script src="bower_components/less/dist/less.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/toastr/toastr.min.js"></script>
 
 <!--app scripts-->
 <script src="app/app.js"></script>
@@ -53,6 +56,12 @@
 <script src="app/about/aboutCtrl.js"></script>
 <script src="app/contact/addCtrl.js"></script>
 <script src="app/charts/chart.js"></script>
+
+<script>
+    toastr.info('Hey this is toaster');
+</script>
+
+
 
 </body>
 </html>
