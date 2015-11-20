@@ -4,7 +4,6 @@ How to start?
 
 1) Download Node.js from [here](https://nodejs.org/en/ "Title") which includes npm.
 
-
 Why to follow this folder structure.
 
 1) Feature folders optimize for growth.
