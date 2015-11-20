@@ -1,6 +1,3 @@
-// Karma configuration
-// Generated on Fri Nov 06 2015 14:33:16 GMT-0500 (Eastern Standard Time)
-
 module.exports = function(config) {
   config.set({
 
@@ -15,16 +12,16 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-/*
+
       'bower_components/angular/angular.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
-      'bower_components/angular-ui-router/release/angular-ui-router.min.js',
+      'bower_components/restangular/dist/restangular.min.js',
+      'bower_components/underscore/underscore-min.js',
+        'bower_components/angular-ui-router/release/angular-ui-router.min.js',
+      'app/app.js',
+      'app/config.route.js',
       'app/contact/addCtrl.js',
-      'test/addCtrl.js',
-        */
-      'bower_components/angular/angular.min.js',
-      'test/**/*Spec.js',
-        'app/contact/testFunction.js'
+      'test/**/*Spec.js'
 
     ],
 

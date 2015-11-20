@@ -4,16 +4,16 @@
     <h3 class="text-info">Multiple Views</h3>
 </div>
 
-<div class="row" ng-controller="aboutController as abtCtrl">
+<div class="row" ng-controller="aboutCtrl">
 
     <!-- COLUMN ONE NAMED VIEW -->
     <div class="col-sm-6">
-        <div ui-view="columnOne"></div>
+        <div data-ui-view="columnOne"></div>
     </div>
 
     <!-- COLUMN TWO NAMED VIEW -->
     <div class="col-sm-6">
-        <div ui-view="columnTwo"></div>
+        <div data-ui-view="columnTwo"></div>
     </div>
 
 </div>    

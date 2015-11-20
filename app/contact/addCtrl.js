@@ -1,16 +1,15 @@
-angular
-    .module('app')
-    .controller('addController',['$scope',addController]);
+         angular
+              .module('app')
+              .controller('addCtrl', ['$scope',function($scope) {
+                  $scope.sum = function () {
+                      return this.a + this.b;
+                  }
+              }]);
 
-function addController($scope) {
-    $scope.sum = function() {
-        return this.a + this.b;
-    };
-}
-
-/*
- function add(a,b){
- return a+b;
-
- }
- */
+          /* function which manipulates the controllers
+          function addCtrl($scope) {
+              $scope.sum = function () {
+                  return this.a + this.b;
+              }
+          }
+           */

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-ng-app="app">
 <head >
-
+    <!--<base href="/TCS/">-->
     <meta charset="UTF-8">
     <title>Landing Page</title>
 
@@ -24,6 +24,7 @@
 
 <!--navigation bar -->
 <header data-ng-include="'app/common/header.html'"></header>
+<!-- NAVIGATION -->
 
 <!--Dynamic view container-->
     <div class="container" >
@@ -38,12 +39,19 @@
 <script src="bower_components/restangular/dist/restangular.min.js"></script>
 <script src="bower_components/underscore/underscore-min.js"></script>
 
+
 <!--app scripts-->
 <script src="app/app.js"></script>
 <script src="app/config.route.js"></script>
-<script src="app/about/aboutCtrl.js"></script>
-<script src="app/services/RestangularService.js"></script>
 <script src="app/home/PartialHomeListCtrl.js"></script>
+<script src="app/services/RestangularService.js"></script>
+<script src="app/about/aboutCtrl.js"></script>
 <script src="app/contact/addCtrl.js"></script>
+<!--
+
+<script src="app/home/PartialHomeListCtrl.js"></script>
+
+
+-->
 </body>
 </html>

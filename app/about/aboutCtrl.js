@@ -1,9 +1,9 @@
 (function(){
     angular
         .module('app')
-        .controller('aboutController',aboutController );
+        .controller('aboutCtrl',aboutCtrl);
 
-    function aboutController() {
+    function aboutCtrl() {
 
         this.message = 'This is Test Data';
 
