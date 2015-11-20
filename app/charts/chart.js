@@ -1,3 +1,12 @@
+angular
+    .module('app')
+    .controller('chartCtrl', function($scope){
+
+        $scope.options = chartStructure;
+        $scope.data = jsondata;
+    });
+
+
 var jsondata=[
     {
         key: "Company A",
@@ -62,10 +71,7 @@ var chartStructure={
     }
 };
 
-angular.module('myApp', ['nvd3'])
-    .controller('myCtrl', function($scope){
 
-        $scope.options = chartStructure;
-        $scope.data = jsondata;
-    });
+
+
 

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" data-ng-app="app">
+<meta charset="UTF-8">
+<meta content="utf-8" http-equiv="encoding">
 <head >
     <!--<base href="/TCS/">-->
-    <meta charset="UTF-8">
     <title>Landing Page</title>
 
     <!--bootstrap style sheet-->
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" >
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" >
+    <link rel="stylesheet" href="bower_components/nvd3/build/nv.d3.css"  type="text/css">
 
     <!--Script for IE compatibility issues-->
     <!--[if lt IE 9]>
@@ -38,7 +40,10 @@
 <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="bower_components/restangular/dist/restangular.min.js"></script>
 <script src="bower_components/underscore/underscore-min.js"></script>
-
+<script src="bower_components/d3/d3.js"></script>
+<script src="bower_components/nvd3/build/nv.d3.js"></script> <!-- or use another assembly -->
+<script src="bower_components/angular-nvd3/dist/angular-nvd3.js"></script>
+<script src="bower_components/less/dist/less.min.js"></script>
 
 <!--app scripts-->
 <script src="app/app.js"></script>
@@ -47,11 +52,7 @@
 <script src="app/services/RestangularService.js"></script>
 <script src="app/about/aboutCtrl.js"></script>
 <script src="app/contact/addCtrl.js"></script>
-<!--
+<script src="app/charts/chart.js"></script>
 
-<script src="app/home/PartialHomeListCtrl.js"></script>
-
-
--->
 </body>
 </html>

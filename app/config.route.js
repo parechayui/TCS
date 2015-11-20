@@ -50,6 +50,11 @@ angular.module('app').
         .state('contact', {
             url: '/contact',
             templateUrl: 'app/contact/contact.html'
-        });
+        })
+
+    .state('chart', {
+        url: '/chart',
+        templateUrl: 'app/charts/chart.html'
+    });
 
 });
