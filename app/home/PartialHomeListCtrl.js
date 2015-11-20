@@ -7,8 +7,9 @@ function PartialHomeList($scope,pocRestangularService){
 
 
     pocRestangularService.getdata("customers.php",function(results){
-        console.log("Data",results);
-        alert(JSON.stringify(results));
+
+        //alert(JSON.stringify(results));
+        toastr.info(JSON.stringify(results));
         $scope.names = ['John', 'Ram', 'Mike'];
 
     });

@@ -5,9 +5,9 @@
 
     angular.module('app').factory('pocRestangularService', pocRestangularService);
     function pocRestangularService(Restangular){
-        // var newBaseUrl = "http://localhost:8080/";
+
         var newBaseUrl = "http://www.w3schools.com/angular/";
-        //console.log("Current API Base URL::::",newBaseUrl);
+
         Restangular.setBaseUrl(newBaseUrl);
         Restangular.setFullResponse(true);
         Restangular.setDefaultHttpFields({cache: false});
@@ -33,8 +33,8 @@
         /* RestAngular setErrorInterceptor Starts  */
 
         Restangular.setErrorInterceptor(function(response, deferred, responseHandler) {
-            console.log("Server Response header for ErrorInterceptor::",response );
-
+            //console.log("Server Response header for ErrorInterceptor::",response );
+            toastr.info("Server Response header for ErrorInterceptor::");
             return true;
         });
 
