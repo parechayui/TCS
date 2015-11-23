@@ -1,6 +1,6 @@
 angular
     .module('app')
-    .controller('chartCtrl', function($scope){
+    .controller('LineChartCtrl', function($scope){
 
         $scope.options = chartStructure;
         $scope.data = jsondata;
@@ -36,11 +36,11 @@ var jsondata=[
 var chartStructure={
     chart: {
         type: 'cumulativeLineChart',
-        height: 450,
+        height: 500,
         margin : {
             top: 20,
             right: 20,
-            bottom: 50,
+            bottom: 100,
             left: 65
         },
         x: function(d){ return d[0]; },

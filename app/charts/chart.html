@@ -1,4 +1,7 @@
-<div data-ng-controller='chartCtrl'>
-    <nvd3 options='options' data='data'></nvd3>
-    Hey charts here
+<div class="jumbotron text-center">
+    <h1>The Chart Page</h1>
+    <a ui-sref=".line" class="btn btn-primary">Line Chart</a>
+    <a ui-sref=".barchart" class="btn btn-danger">Bar Chart</a>
 </div>
+
+<div data-ui-view></div>

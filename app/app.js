@@ -1,6 +1,6 @@
 angular
     .module('app', [
-      'ui.router',
-       'restangular',
+        'ui.router',
+        'restangular',
         'nvd3'
     ]);

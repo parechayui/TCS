@@ -13,7 +13,7 @@ describe('Add Controller', function() {
 
         beforeEach(function() {
             $scope = {};
-            controller = $controller('addCtrl', { $scope: $scope });
+            controller = $controller('AddCtrl', { $scope: $scope });
         });
 
         /*when both numbers are positive*/

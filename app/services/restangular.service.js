@@ -12,29 +12,14 @@
         Restangular.setFullResponse(true);
         Restangular.setDefaultHttpFields({cache: false});
         Restangular.setDefaultHeaders();
-        //Restangular.setDefaultHttpFields({withCredentials: false});
 
 
-        /* RestAngular addFullRequestInterceptor Starts  */
 
-        /*  Restangular.addFullRequestInterceptor(function (element, operation, route, url, headers, params, httpConfig) {
-         console.log(":element:",element,":operation:",operation,":route:",route,":params:",params,":headers:",headers,":httpConfig:",httpConfig);
-
-         return {
-         element: element,
-         headers: headers,
-         params: params,
-         httpConfig: httpConfig
-         };
-         });*/
-
-        /* RestAngular addFullRequestInterceptor Ends  */
-
-        /* RestAngular setErrorInterceptor Starts  */
+       /* RestAngular setErrorInterceptor Starts  */
 
         Restangular.setErrorInterceptor(function(response, deferred, responseHandler) {
             //console.log("Server Response header for ErrorInterceptor::",response );
-            toastr.info("Server Response header for ErrorInterceptor::");
+            toastr["error"]("Server Response header for ErrorInterceptor:");
             return true;
         });
 

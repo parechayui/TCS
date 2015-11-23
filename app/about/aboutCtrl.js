@@ -1,9 +1,9 @@
 (function(){
     angular
         .module('app')
-        .controller('aboutCtrl',aboutCtrl);
+        .controller('AboutCtrl',['$scope',AboutCtrl]);
 
-    function aboutCtrl() {
+    function AboutCtrl($scope) {
 
         this.message = 'This is Test Data';
 
@@ -23,7 +23,4 @@
         ];
 
     }
-
-
-
 })();
