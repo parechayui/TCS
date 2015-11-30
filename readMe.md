@@ -48,3 +48,5 @@ For ex: If a service provides data then give it a name data.service.js and name 
  To familiarize with the UI-Route please go through [here](https://github.com/angular-ui/ui-router "Title")
  
  To familiarize with the Karma-Jasmine please go through [here](https://docs.angularjs.org/guide/unit-testing "Title")
+ 
+ To familiarize with the Protractor Screenshot docs:[here](https://www.npmjs.com/package/protractor-html-screenshot-reporter "Title")
