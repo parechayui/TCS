@@ -1,13 +1,14 @@
 (function(){
+    'use strict';
     angular
         .module('app')
-        .controller('AboutCtrl',['$scope',AboutCtrl]);
+        .controller('AboutCtrl',AboutCtrl);
 
-    function AboutCtrl($scope) {
+    function AboutCtrl() {
+    var vm=this;
+        vm.message = 'This is Test Data';
 
-        this.message = 'This is Test Data';
-
-        this.cars = [
+        vm.cars = [
             {
                 name: 'Mazda',
                 price: 5000

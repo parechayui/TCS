@@ -6,7 +6,7 @@
     angular.module('app').factory('pocRestangularService', pocRestangularService);
     function pocRestangularService(Restangular){
 
-        var newBaseUrl = "http://www.w3schools.com/angular/";
+        var newBaseUrl = "http://www.w3schools.com/ngular/";
 
         Restangular.setBaseUrl(newBaseUrl);
         Restangular.setFullResponse(true);

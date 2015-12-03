@@ -1,6 +1,10 @@
-angular
-    .module('app', [
-        'ui.router',
-        'restangular',
-        'nvd3'
-    ]);
+(function(){
+    'use strict';
+    angular
+        .module('app', [
+            'ui.router',
+            'restangular',
+            'nvd3'
+        ]);
+
+})();

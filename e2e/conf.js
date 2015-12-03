@@ -3,7 +3,7 @@ var HtmlReporter = require('protractor-html-screenshot-reporter');
 var reporter=new HtmlReporter({
     baseDirectory: './protractor-result', // a location to store screen shots.
     docTitle: 'Protractor Demo Reporter',
-    docName:    'protractor-demo-tests-report.html'
+    docName:    'app_test_report.html'
 });
 
 exports.config = {
