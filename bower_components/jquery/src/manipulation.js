@@ -218,7 +218,7 @@ jQuery.extend({
 					wrap = wrapMap[ tag ] || wrapMap._default;
 					tmp.innerHTML = wrap[ 1 ] + elem.replace( rxhtmlTag, "<$1></$2>" ) + wrap[ 2 ];
 
-					// Descend through wrappers to the right content
+					// Descend through wrappers to the right assets
 					j = wrap[ 0 ];
 					while ( j-- ) {
 						tmp = tmp.lastChild;
@@ -443,7 +443,7 @@ jQuery.fn.extend({
 	replaceWith: function() {
 		var arg = arguments[ 0 ];
 
-		// Make the changes, replacing each context element with the new content
+		// Make the changes, replacing each context element with the new assets
 		this.domManip( arguments, function( elem ) {
 			arg = this.parentNode;
 
@@ -454,7 +454,7 @@ jQuery.fn.extend({
 			}
 		});
 
-		// Force removal if there was no new content (e.g., from empty arguments)
+		// Force removal if there was no new assets (e.g., from empty arguments)
 		return arg && (arg.length || arg.nodeType) ? this : this.remove();
 	},
 

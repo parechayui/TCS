@@ -3,13 +3,12 @@
  'use strict';
     angular
         .module('app')
-        .controller('HomeList',['$scope','pocRestangularService',HomeList]);
+        .controller('HomeList',['pocRestangularService',HomeList]);
 
-    function HomeList($scope,pocRestangularService){
-            pocRestangularService.getdata("customers.php",function(results){
-            //alert(JSON.stringify(results));
-            toastr.info(JSON.stringify(results));
-            $scope.names = ['John', 'Ram', 'Mike'];
+    function HomeList(pocRestangularService){
+        var vm=this;
+        pocRestangularService.getdata("db",function(results){//This is db.json file
+        vm.person=results.data['records'];
     });
 }})()
 

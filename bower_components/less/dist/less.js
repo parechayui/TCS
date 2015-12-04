@@ -196,7 +196,7 @@ module.exports = function(window, less, options) {
 
     function errorHTML(e, rootHref) {
         var id = 'less-error-message:' + utils.extractId(rootHref || "");
-        var template = '<li><label>{line}</label><pre class="{class}">{content}</pre></li>';
+        var template = '<li><label>{line}</label><pre class="{class}">{assets}</pre></li>';
         var elem = window.document.createElement('div'), timer, content, errors = [];
         var filename = e.filename || rootHref;
         var filenameNoPath = filename.match(/([^\/]+(\?.*)?)$/)[1];
@@ -327,7 +327,7 @@ module.exports = function(window, less, options) {
     }
 
     function errorConsole(e, rootHref) {
-        var template = '{line} {content}';
+        var template = '{line} {assets}';
         var filename = e.filename || rootHref;
         var errors = [];
         var content = (e.type || "Syntax") + "Error: " + (e.message || 'There is an error in your .less file') +
@@ -7958,7 +7958,7 @@ Ruleset.prototype.joinSelector = function (paths, context, selector) {
         return selector;
     }
 
-    // replace all parent selectors inside `inSelector` by content of `context` array
+    // replace all parent selectors inside `inSelector` by assets of `context` array
     // resulting selectors are returned inside `paths` array
     // returns true if `inSelector` contained at least one parent selector
     function replaceParentSelector(paths, context, inSelector) {

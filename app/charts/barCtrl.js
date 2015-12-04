@@ -65,6 +65,7 @@
                     "value" : 29.765957771107
                 }
             ]
+
         }
     ];
 
@@ -114,3 +115,20 @@
 
 
 })();
+
+
+//(function()
+//{
+//    'use strict';
+//    angular
+//        .module('app')
+//        .controller('BarChartCtrl',['pocRestangularService',BarChartCtrl]);
+//
+//    function BarChartCtrl(pocRestangularService){
+//        var vm=this;
+//        pocRestangularService.getdata("bdata",function(results){//This is db.json file
+//            $scope.options =barchart;
+//            $scope.data = bardata;
+//        });
+//    }})()
+

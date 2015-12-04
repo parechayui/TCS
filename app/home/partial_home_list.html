@@ -1,3 +1,20 @@
-<ul>
+<!--<ul>
     <li ng-repeat="name in names">{{ name }}</li>
 </ul>
+-->
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>City</th>
+        <th>Country</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="p in home.person">
+        <td>{{p.Name}}</td>
+        <td>{{p.City}}</td>
+        <td>{{p.Country}}</td>
+    </tr>
+    </tbody>
+</table>

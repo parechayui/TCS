@@ -21,7 +21,7 @@
             .state('home.list', {
                 url: '/list',
                 templateUrl: 'app/home/partial_home_list.html',
-                controller: 'HomeList'
+                controller: 'HomeList as home'
             })
 
             // nested list with just some random string data
@@ -62,14 +62,14 @@
 
             .state('chart.line', {
                 url: '/line',
-                templateUrl: 'app/charts/line_chart.html',
+                templateUrl: 'app/common/chart.html',
                 controller: 'LineChartCtrl'
             })
 
             // nested list with just some random string data
             .state('chart.barchart', {
                 url: '/barchart',
-                templateUrl: 'app/charts/bar_chart.html',
+                templateUrl: 'app/common/chart.html',
                 controller: 'BarChartCtrl'
             });
     });

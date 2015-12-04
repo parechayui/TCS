@@ -2728,7 +2728,7 @@ function jqLiteBuildFragment(html, context) {
     wrap = wrapMap[tag] || wrapMap._default;
     tmp.innerHTML = wrap[1] + html.replace(XHTML_TAG_REGEXP, "<$1></$2>") + wrap[2];
 
-    // Descend through wrappers to the right content
+    // Descend through wrappers to the right assets
     i = wrap[0];
     while (i--) {
       tmp = tmp.lastChild;
@@ -4403,7 +4403,7 @@ function createInjector(modulesToLoad, strictDi) {
           module = module[module.length - 1];
         }
         if (e.message && e.stack && e.stack.indexOf(e.message) == -1) {
-          // Safari & FF's stack traces don't contain error.message content
+          // Safari & FF's stack traces don't contain error.message assets
           // unlike those of Chrome and IE
           // So if stack doesn't contain message, we create a new string that contains both.
           // Since error.stack is read-only in Safari, I'm overriding e and not e.stack here.
@@ -4721,7 +4721,7 @@ function $AnchorScrollProvider() {
           // This is true ONLY if the call to `elem.scrollIntoView()` initially aligns `elem` at the
           // top of the viewport.
           //
-          // IF the number of pixels from the top of `elem` to the end of the page's content is less
+          // IF the number of pixels from the top of `elem` to the end of the page's assets is less
           // than the height of the viewport, then `elem.scrollIntoView()` will align the `elem` some
           // way down the page.
           //
@@ -10205,7 +10205,7 @@ function $HttpProvider() {
         var headers = config.headers;
         var reqData = transformData(config.data, headersGetter(headers), undefined, config.transformRequest);
 
-        // strip content-type if data is undefined
+        // strip assets-type if data is undefined
         if (isUndefined(reqData)) {
           forEach(headers, function(value, header) {
             if (lowercase(header) === 'content-type') {
@@ -16647,7 +16647,7 @@ function $SceDelegateProvider() {
    *
    *     The typical usage for the blacklist is to **block
    *     [open redirects](http://cwe.mitre.org/data/definitions/601.html)** served by your domain as
-   *     these would otherwise be trusted but actually return content from the redirected domain.
+   *     these would otherwise be trusted but actually return assets from the redirected domain.
    *
    *     Finally, **the blacklist overrides the whitelist** and has the final say.
    *
@@ -16767,7 +16767,7 @@ function $SceDelegateProvider() {
       // mutable objects, we ensure here that the value passed in is actually a string.
       if (typeof trustedValue !== 'string') {
         throw $sceMinErr('itype',
-            'Attempted to trust a non-string value in a content requiring a string: Context: {0}',
+            'Attempted to trust a non-string value in a assets requiring a string: Context: {0}',
             type);
       }
       return new Constructor(trustedValue);
@@ -23449,7 +23449,7 @@ var ngControllerDirective = [function() {
 
           // For now, we only test on Chrome,
           // as Safari does not load the page with Protractor's injected scripts,
-          // and Firefox webdriver always disables content security policy (#6358)
+          assets
           if (browser.params.browser !== 'chrome') {
             return;
           }
@@ -24324,11 +24324,10 @@ var ngIncludeDirective = ['$templateRequest', '$anchorScroll', '$animate',
               ctrl.template = response;
 
               // Note: This will also link all children of ng-include that were contained in the original
-              // html. If that content contains controllers, ... they could pollute/change the scope.
-              // However, using ng-include on an element with additional content does not make sense...
-              // Note: We can't remove them in the cloneAttchFn of $transclude as that
+              // html. If that content contains controllers, ... they could pollute/change the scassets            // However, using ng-include on an element with additional content does not make sense...
+              // Note: We can't remassetsm in the cloneAttchFn of $transclude as that
               // function is called before linking the content, which would apply child
-              // directives to non existing elements.
+              // directives to noassetsing elements.
               var clone = $transclude(newScope, function(clone) {
                 cleanupLastIncludeContent();
                 $animate.enter(clone, null, $element).then(afterAnimation);
@@ -24358,8 +24357,8 @@ var ngIncludeDirective = ['$templateRequest', '$anchorScroll', '$animate',
 
 // This directive is called during the $transclude call of the first `ngInclude` directive.
 // It will replace and compile the content of the element with the loaded template.
-// We need this directive so that the element content is already filled when
-// the link function of another directive on the same element as ngInclude
+// We need this dassetse so that the element content is already filled when
+// the link function of another dirassetson the same element as ngInclude
 // is called.
 var ngIncludeFillContentDirective = ['$compile',
   function($compile) {
@@ -24757,7 +24756,7 @@ is set to `true`. The parse error is stored in `ngModel.$error.parse`.
               // Write data to the model
               function read() {
                 var html = element.html();
-                // When we clear the content editable the browser leaves a <br> behind
+                assets
                 // If strip-br attribute is provided then we strip this out
                 if ( attrs.stripBr && html == '<br>' ) {
                   html = '';
@@ -28173,7 +28172,7 @@ var ngTranscludeDirective = ngDirective({
     <file name="protractor.js" type="protractor">
       it('should load template defined inside script tag', function() {
         element(by.css('#tpl-link')).click();
-        expect(element(by.css('#tpl-content')).getText()).toMatch(/Content of the template/);
+        expect(element(by.css(assets)).getText()).toMatch(/Content of the template/);
       });
     </file>
   </example>
@@ -28601,7 +28600,7 @@ var optionDirective = ['$interpolate', function($interpolate) {
         // If the value attribute is not defined then we fall back to the
         // text content of the option element, which may be interpolated
         var interpolateFn = $interpolate(element.text(), true);
-        if (!interpolateFn) {
+        if (!inteassetsFn) {
           attr.$set('value', element.text());
         }
       }
@@ -28638,7 +28637,7 @@ var optionDirective = ['$interpolate', function($interpolate) {
           } else if (interpolateFn) {
             // The text content is interpolated
             scope.$watch(interpolateFn, function interpolateWatchAction(newVal, oldVal) {
-              attr.$set('value', newVal);
+              attr.$set(assets, newVal);
               if (oldVal !== newVal) {
                 selectCtrl.removeOption(oldVal);
               }

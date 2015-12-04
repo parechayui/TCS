@@ -45,7 +45,6 @@ For ex: scplan.route.js or scplan.config.route.js
 6) Name services based on what it provides; name the assets related to the feature it provides.
 For ex: If a service provides data then give it a name data.service.js and name the asset “data.” If it helps in logging then give the name logger.services.js and name the asset as “logger.” 
  
- 
  To know more about the Angular Style Guidelines go through [here] (https://github.com/johnpapa/angular-styleguide "Title")
  
  To familiarize with the UI-Route please go through [here](https://github.com/angular-ui/ui-router "Title")
@@ -59,3 +58,5 @@ For ex: If a service provides data then give it a name data.service.js and name 
  To familiarize with the Protractor docs:[here](https://angular.github.io/protractor/#/ "Title")
  
  To familiarize with the Protractor Screenshot docs:[here](https://www.npmjs.com/package/protractor-html-screenshot-reporter "Title")
+ 
+ To familiarize with the JSON-Server go [here](https://github.com/typicode/json-server "Title")
