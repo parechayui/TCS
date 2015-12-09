@@ -3619,7 +3619,7 @@ nv.models.cumulativeLineChart = function() {
                 if (allData.length > 2) {
                     var yValue = chart.yScale().invert(e.mouseY);
                     var domainExtent = Math.abs(chart.yScale().domain()[0] - chart.yScale().domain()[1]);
-                    var threshold = 10.03 * domainExtent;
+                    var threshold = 0.03 * domainExtent;
                     var indexToHighlight = nv.nearestValueIndex(allData.map(function(d){return d.value}),yValue,threshold);
                     if (indexToHighlight !== null)
                         allData[indexToHighlight].highlight = true;
@@ -3881,7 +3881,7 @@ nv.models.discreteBar = function() {
             y   .domain(yDomain || d3.extent(d3.merge(seriesData).map(function(d) { return d.y }).concat(forceY)));
 
             // If showValues, pad the Y axis range to account for label height
-            if (showValues) y.range(yRange || [availableHeight - (y.domain()[0] < 0 ? 12 : 0), y.domain()[1] > 0 ? 12 : 0]);
+            if (showValues) y.range(yRange || [availableHeight - 12, y.domain()[1] > 0 ? 12 : 0]);
             else y.range(yRange || [availableHeight, 0]);
 
             //store old scales if they exist

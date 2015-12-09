@@ -62,14 +62,14 @@
 
             .state('chart.line', {
                 url: '/line',
-                templateUrl: 'app/common/chart.html',
+                templateUrl: 'app/common/chart_view.html',
                 controller: 'LineChartCtrl'
             })
 
             // nested list with just some random string data
             .state('chart.barchart', {
                 url: '/barchart',
-                templateUrl: 'app/common/chart.html',
+                templateUrl: 'app/common/chart_view.html',
                 controller: 'BarChartCtrl'
             });
     });

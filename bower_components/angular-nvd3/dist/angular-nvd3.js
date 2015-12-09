@@ -16,7 +16,8 @@
                     options: '=',   //chart options, according to nvd3 core api, [required]
                     api: '=?',      //directive global api, [optional]
                     events: '=?',   //global events that directive would subscribe to, [optional]
-                    config: '=?'    //global directive configuration, [optional]
+                    config: '=?' ,   //global directive configuration, [optional]
+                    modchart: '=?'
                 },
                 link: function(scope, element, attrs){
                     var defaultConfig = {
