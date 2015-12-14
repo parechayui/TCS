@@ -775,9 +775,9 @@ nv.nearestValueIndex = function (values, searchVal, threshold) {
                     body = document.body;
                 }
                 //Create new tooltip div if it doesn't exist on DOM.
-                tooltip = d3.select(body).append("div")
-                    .attr("class", "nvtooltip " + (classes ? classes : "xy-tooltip"))
-                    .attr("id", id);
+                tooltip = d3.select(body).append("div").
+                attr("class", "nvtooltip " + (classes ? classes : "xy-tooltip"))
+                .attr("id", id);
                 tooltip.style("top", 0).style("left", 0);
                 tooltip.style('opacity', 0);
                 tooltip.selectAll("div, table, td, tr").classed(nvPointerEventsClass, true);

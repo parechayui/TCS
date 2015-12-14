@@ -4,6 +4,10 @@ How to start?
 
 1) Download Node.js from [here](https://nodejs.org/en/ "Title") which includes npm.
 
+2) Install Bower install(globally)[npm install -g bower].
+
+3) Install json-server(globally)[npm install -g json-server]
+
 Why to follow this folder structure.
 
 1) Feature folders optimize for growth.

@@ -3,7 +3,7 @@ module.exports = function() {
 
     // Create 20 users
     var zip=72000;
-    var user=["Mark","Bravo","Mike","Vj"];
+    var user=["Mark","Bravo","Amar","Sreedhar"];
     var citydata=["AR","NJ","NY"];
     var street=["Walton Blvd","Hamilton St","Bay Hill Dr"];
     var country=["USA","India","Germany"];

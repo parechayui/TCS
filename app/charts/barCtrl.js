@@ -18,17 +18,10 @@
 
             $scope.options =chart("Products","Values","barChart");
             $scope.data = bardata;
-             // console.log(d3.svg.attr("width",12));
 
 
-              //console.log( d3.select(element[0]).select('svg'));
-                  /*.data(dataset)
-             selectAll("text")
-             .enter()
-             .append("text").
-                  text(function(d) {
-                      return d;
-                  })*/
+
+
        });
     }})();
 
