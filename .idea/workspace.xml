@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84afb9bd-ab6c-448c-b1af-449fa408777e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/charts/angular-nvd3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/charts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/charts/dummyangnvd3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/charts/lrnd3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/charts/nv.d3.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/dummychart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/dummyd3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/basic/dataSpec.js" afterPath="" />
+    <list default="true" id="84afb9bd-ab6c-448c-b1af-449fa408777e" name="Default" comment="Parametrization of Charts">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../angular/app/controllers/head.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../angular/app/services/book.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../angular/app/services/kart.service.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/angular-nvd3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/d3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/data.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/dummyangnvd3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/lrnd3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/nv.d3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/charts/nv.d3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../angular/bookview.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/charts/barCtrl.js" afterPath="$PROJECT_DIR$/app/charts/barCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/charts/nv.d3.js" afterPath="$PROJECT_DIR$/app/charts/nv.d3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/db.json" afterPath="$PROJECT_DIR$/json/db.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/index.js" afterPath="$PROJECT_DIR$/json/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readMe.md" afterPath="$PROJECT_DIR$/readMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/charts/chartConstructor.js" afterPath="$PROJECT_DIR$/app/charts/chartConstructor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/charts/lineCtrl.js" afterPath="$PROJECT_DIR$/app/charts/lineCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/chart_view.html" afterPath="$PROJECT_DIR$/app/common/chart_view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/homelistCtrl.js" afterPath="$PROJECT_DIR$/app/home/homelistCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/partial_home_list.html" afterPath="$PROJECT_DIR$/app/home/partial_home_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular/app/app.js" afterPath="$PROJECT_DIR$/../angular/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular/app/config.js" afterPath="$PROJECT_DIR$/../angular/app/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular/app/controllers/book.controller.js" afterPath="$PROJECT_DIR$/../angular/app/controllers/book.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular/app/controllers/kart.controller.js" afterPath="$PROJECT_DIR$/../angular/app/controllers/kart.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular/app/views/kartview.html" afterPath="$PROJECT_DIR$/../angular/app/views/kartview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../angular/index.html" afterPath="$PROJECT_DIR$/../angular/index.html" />
     </list>
     <ignored path="TCS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,54 +48,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lrnd3.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/charts/lrnd3.html">
+      <file leaf-file-name="chart_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/common/chart_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.437018">
-              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state vertical-scroll-proportion="-0.7096774">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nv.d3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/charts/nv.d3.js">
+      <file leaf-file-name="chart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/charts/chart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4154" column="76" selection-start-line="4154" selection-start-column="54" selection-end-line="4154" selection-end-column="76" />
-              <folding>
-                <marker date="1449702671748" expanded="true" signature="219336:219344" placeholder="..." />
-                <marker date="1449702671748" expanded="true" signature="220454:220462" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nv.d3.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/charts/nv.d3.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="39" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="39" />
+            <state vertical-scroll-proportion="-2.1290324">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-nvd3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/charts/angular-nvd3.js">
+      <file leaf-file-name="chartConstructor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/charts/chartConstructor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="48" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="48" />
+            <state vertical-scroll-proportion="-0.7586207">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/charts/d3.js">
+      <file leaf-file-name="barCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/charts/barCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3919753">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lineCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/charts/lineCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7960" column="24" selection-start-line="7960" selection-start-column="21" selection-end-line="7960" selection-end-column="24" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.route.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config.route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="41" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.677419">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,12 +153,10 @@
         <option value="$PROJECT_DIR$/test/basic/dataSpec.js" />
         <option value="$PROJECT_DIR$/e2e/todo-spec.js" />
         <option value="$PROJECT_DIR$/app/about/partial_about.html" />
-        <option value="$PROJECT_DIR$/app/home/partial_home_list.html" />
         <option value="$PROJECT_DIR$/app/charts/bar_chart.html" />
         <option value="$PROJECT_DIR$/app/charts/line_chart.html" />
         <option value="$PROJECT_DIR$/app/common/chart.html" />
         <option value="$PROJECT_DIR$/testjson/db.json" />
-        <option value="$PROJECT_DIR$/app/home/homelistCtrl.js" />
         <option value="$PROJECT_DIR$/app/services/restangular.service.js" />
         <option value="$PROJECT_DIR$/testjson/bardata.json" />
         <option value="$PROJECT_DIR$/testjson/mydb.js" />
@@ -148,14 +174,10 @@
         <option value="$PROJECT_DIR$/json/configjson.js" />
         <option value="$PROJECT_DIR$/app/config.route.js" />
         <option value="$PROJECT_DIR$/app/charts/chartOptions.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/charts/lineCtrl.js" />
         <option value="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.js" />
         <option value="$PROJECT_DIR$/app/charts/data.tsv" />
         <option value="$PROJECT_DIR$/app/charts/dummyd3.html" />
-        <option value="$PROJECT_DIR$/app/common/chart_view.html" />
         <option value="$PROJECT_DIR$/bower_components/angular-nvd3/dist/angular-nvd3.js" />
-        <option value="$PROJECT_DIR$/app/charts/chartConstructor.js" />
         <option value="$PROJECT_DIR$/app/charts/dummychart.html" />
         <option value="$PROJECT_DIR$/app/charts/d2.html" />
         <option value="$PROJECT_DIR$/app/charts/nv.d3.js" />
@@ -163,11 +185,17 @@
         <option value="$PROJECT_DIR$/json/index.js" />
         <option value="$PROJECT_DIR$/json/db.json" />
         <option value="$PROJECT_DIR$/readMe.md" />
-        <option value="$PROJECT_DIR$/app/charts/barCtrl.js" />
         <option value="$PROJECT_DIR$/app/charts/nv.d3.css" />
         <option value="$PROJECT_DIR$/app/charts/dummyangnvd3.html" />
         <option value="$PROJECT_DIR$/app/charts/app.js" />
         <option value="$PROJECT_DIR$/app/charts/lrnd3.html" />
+        <option value="$PROJECT_DIR$/app/home/homelistCtrl.js" />
+        <option value="$PROJECT_DIR$/app/home/partial_home_list.html" />
+        <option value="$PROJECT_DIR$/app/common/chart_view.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/charts/chartConstructor.js" />
+        <option value="$PROJECT_DIR$/app/charts/lineCtrl.js" />
+        <option value="$PROJECT_DIR$/app/charts/barCtrl.js" />
       </list>
     </option>
   </component>
@@ -207,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Changed Files">
@@ -280,7 +309,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,7 +369,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +419,184 @@
       <recent name="C:\xampp\htdocs\Webpage\TCS\app" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.lrnd3.html">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/records/13" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="{&quot;id&quot;:13,&quot;name&quot;:&quot;Gc&quot;,&quot;city&quot;:&quot;Ar&quot;,&quot;Country&quot;:&quot;USA&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/records" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;id&quot;:13,&quot;name&quot;:&quot;Gc&quot;,&quot;city&quot;:&quot;Ar&quot;,&quot;Country&quot;:&quot;USA&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/records/0" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;id&quot;:13,&quot;name&quot;:&quot;Gc&quot;,&quot;city&quot;:&quot;Ar&quot;,&quot;Country&quot;:&quot;USA&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/records/0" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/records/0" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/records/id=13" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/records" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Karma.karma.conf.js">
     <configuration default="false" name="testjson.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TCS/json/testjson.html">
       <method />
     </configuration>
@@ -719,13 +960,16 @@
       <option name="project" value="LOCAL" />
       <updated>1449699341568</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Parametrization of Charts">
+      <created>1450101117959</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1450101117959</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="karma_conf_js - 2015.12.01 at 15h 47m 07s.xml">
-      <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
-    </history-entry>
     <history-entry file="karma_conf_js - 2015.12.01 at 15h 47m 29s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
@@ -753,6 +997,9 @@
     <history-entry file="karma_conf_js - 2015.12.10 at 15h 31m 42s.xml">
       <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
+    <history-entry file="karma_conf_js - 2015.12.23 at 17h 01m 56s.xml">
+      <configuration name="karma.conf.js" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,26 +1012,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16291292" sideWeight="0.7066246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.28550512" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4941263" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40375587" sideWeight="0.47619048" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4914842" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.7144949" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.7144949" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26647145" sideWeight="0.2933754" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3747954" sideWeight="0.49706313" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3584288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.403125" sideWeight="0.47619048" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7890625" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42716858" sideWeight="0.49706313" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3747954" sideWeight="0.49706313" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -825,7 +1073,8 @@
     <MESSAGE value="angular-nvd3 updated" />
     <MESSAGE value="Toastr updated" />
     <MESSAGE value="JSON Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSON Server" />
+    <MESSAGE value="Parametrization of Charts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parametrization of Charts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,22 +1083,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/charts/d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7960" column="24" selection-start-line="7960" selection-start-column="21" selection-end-line="7960" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7960" column="24" selection-start-line="7960" selection-start-column="21" selection-end-line="7960" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1011,34 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/partial_home_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4630682">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63185376">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/chart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1875">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/restangular.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45953003">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/charts/chartOptions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.8825064">
@@ -1050,27 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5315315">
           <caret line="4039" column="54" selection-start-line="4039" selection-start-column="54" selection-end-line="4039" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/lineCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037671234">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/data.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/common/chart_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1088,20 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/homelistCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json/configjson.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1109,97 +1279,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/index.js">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/readMe.md">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/d3.js">
+    <entry file="file://$PROJECT_DIR$/app/home/homelistCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78571427">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/restangular.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052380953">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/partial_home_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05655527">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05655527">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052380953">
+          <caret line="16" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7960" column="24" selection-start-line="7960" selection-start-column="21" selection-end-line="7960" selection-end-column="24" />
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/charts/chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1290324">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/chart_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.677419">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/charts/chartConstructor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="47" />
+        <state vertical-scroll-proportion="-0.7586207">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readMe.md">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/app/charts/lineCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="33" />
+          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/charts/barCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39446366">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/angular-nvd3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="48" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/nv.d3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/nv.d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4154" column="76" selection-start-line="4154" selection-start-column="54" selection-end-line="4154" selection-end-column="76" />
-          <folding>
-            <marker date="1449702671748" expanded="true" signature="219336:219344" placeholder="..." />
-            <marker date="1449702671748" expanded="true" signature="220454:220462" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06535948">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/dummyangnvd3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.697074">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/charts/lrnd3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.437018">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.3919753">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

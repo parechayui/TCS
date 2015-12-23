@@ -1,4 +1,5 @@
-function chart(xval,yval,chartStructure) {
+function wmchartFun(xval,yval,chartStructure,callFunction) {
+var chart;
     var wmchart = {
         "barChart": {
             chart: {
@@ -13,14 +14,10 @@ function chart(xval,yval,chartStructure) {
                 ,
                 x: function (d) {
                     return d.label;
-                }
-                ,
-
+                },
                 y: function (d) {
                     return d.value;
-                }
-                ,
-
+                },
                 showValues: true,
                 valueFormat: function (d) {
                     return d3.format(',.4f')(d);
@@ -35,6 +32,14 @@ function chart(xval,yval,chartStructure) {
                 yAxis: {
                     axisLabel: yval
                 }
+                ,
+                dispatch: {
+                    renderEnd: function(){
+                        var svg = d3.select('svg');
+                        callFunction(svg);
+                    }
+                }
+
             }
         },
 
@@ -88,9 +93,44 @@ function chart(xval,yval,chartStructure) {
                     ,
                     axisLabelDistance: 0
                 }
+                ,
+                dispatch: {
+                    renderEnd: function(){
+                        var svg = d3.select('svg');
+                        callFunction(svg);
+                    }
+                }
+              //  callback:modifyChart,
+              //  dispatch: {
+              //      renderEnd: function(){
+              //          modifyChart(chart)
+              //      }
+              //  }
+
+
+
+
             }
+
 
         }
     }
-    return wmchart[chartStructure];
+    //function modifyChart(modChart) {
+    //
+    //    if (modChart) {
+    //
+    //        return d3.('svg');
+    //
+    //    }
+    //}
+
+    // myChart = wmchart[chartStruct];
+
+    // if modChart: return myChart.SVG;
+
+
+
+        return wmchart[chartStructure];
+
+
 }

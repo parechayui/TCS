@@ -4,9 +4,28 @@
         .module('app')
         .controller('LineChartCtrl', function($scope){
 
-            $scope.options =chart("Days","Productivity","lineChart");
+            $scope.options =wmchartFun("Days","Productivity","lineChart",modifyChart);
+
             $scope.data = jsondata;
+            $scope.onReady = function(scope, el){
+                chart=scope.chart;
+            }
+            function modifyChart(svg){
+                /*If you want any modification in the chart,use the svg object here */
+                console.log(svg);
+            }
+
         });
+
+    //
+    //  $scope.onReady = function(scope, el){
+    //      chart = scope.chart;
+    //  }
+    //  function modifyChart(chart){
+    //      var data = d3.select('svg').datum();
+    //
+    //
+    //  }
 
 
     var jsondata=[
