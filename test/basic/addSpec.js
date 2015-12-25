@@ -2,7 +2,6 @@
 describe('Add Controller', function() {
     beforeEach(module('app'));
 
-    var $controller;
 
     beforeEach(inject(function(_$controller_){
         // The injector unwraps the underscores (_) from around the parameter names when matching
@@ -17,12 +16,10 @@ describe('Add Controller', function() {
         });
 
         /*when both numbers are positive*/
-        it('adds the number', function() {
+        it('adds two positive numbers', function() {
             $scope.a=2;
             $scope.b=3;
-            var value= $scope.sum();
-            console.log($scope.sum);
-            expect(value).toEqual(5);
+            expect($scope.sum()).toEqual(5);
         });
 
         /*When one number is negative*/
@@ -30,8 +27,7 @@ describe('Add Controller', function() {
         it('adds the numbers when one is negative', function(){
             $scope.a=-2;
             $scope.b=3;
-            var value= $scope.sum();
-            expect(value).toEqual(1);
+            expect($scope.sum()).toEqual(1);
         });
 
         /*When both numbers are negative*/
@@ -39,8 +35,7 @@ describe('Add Controller', function() {
         it('adds the number when both are negative', function(){
             $scope.a=-2;
             $scope.b=-3;
-            var value= $scope.sum();
-            expect(value).toEqual(-5);
+           expect($scope.sum()).toEqual(-5);
         });
 
     });
