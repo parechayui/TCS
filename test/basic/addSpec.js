@@ -22,7 +22,7 @@ describe('Add Controller', function() {
             expect($scope.sum()).toEqual(5);
         });
 
-        /*When one number is negative*/
+        /*When one number is negative please note*/
 
         it('adds the numbers when one is negative', function(){
             $scope.a=-2;
